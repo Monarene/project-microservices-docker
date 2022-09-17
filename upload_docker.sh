@@ -6,6 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath="monarene/prediction-api"
 
 # Step 2:  
 # Authenticate & tag
@@ -13,3 +14,5 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker tag prediction-api $dockerpath
+docker push $dockerpath
