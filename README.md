@@ -1,4 +1,8 @@
 <include a CircleCI status badge, here>
+# Template:
+[![<monarene>](https://circleci.com/gh/Monarene/project-microservices-docker.svg?style=svg)](https://circleci.com/gh/Monarene/project-microservices-docker)
+
+
 
 ## Project Overview
 
